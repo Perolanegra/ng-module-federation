@@ -32,8 +32,8 @@ module.exports = {
         name: "search",
         filename: "remoteEntry.js",
         exposes: {
-            './AppModule':
-             './apps/search/src/app/app.module.ts',
+            './CarouselComponent':
+             './apps/search/src/app/pokemon-carousel/pokemon-carousel.component.ts',
         },
 
         // For hosts (please adjust)

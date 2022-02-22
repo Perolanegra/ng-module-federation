@@ -8,7 +8,7 @@ import { PokemonCarouselComponent } from './pokemon-carousel/pokemon-carousel.co
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent, PokemonCarouselComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, ],
   exports: [],
   providers: [],
   bootstrap: [AppComponent],

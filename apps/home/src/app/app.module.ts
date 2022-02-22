@@ -9,7 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [AppComponent, NxWelcomeComponent, CarouselHostComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    // AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],
