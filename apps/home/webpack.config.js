@@ -22,7 +22,8 @@ module.exports = {
     }
   },
   experiments: {
-    outputModule: true
+    outputModule: true,
+    topLevelAwait: true,
   },
   plugins: [
     new ModuleFederationPlugin({
